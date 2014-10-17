@@ -10,7 +10,7 @@ Blender FAQ
 .. caution::
 
    | 日本語訳は月曜日、21日から始める予定 。
-   | (I'll begin the translation at monday,20th Oct.)
+   | (I'll begin the translation it from next Monday,20th Oct.)
 
 
 Posted on October 11, 2014 by Light	
