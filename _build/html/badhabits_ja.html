@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Blender Bad Habits &mdash; blendermisc .01 documentation</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '.01',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="blendermisc .01 documentation" href="index.html" />
+    <link rel="prev" title="Blender FAQ" href="blenderfaq_ja.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="blenderfaq_ja.html" title="Blender FAQ"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">blendermisc .01 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="blender-bad-habits">
+<h1>Blender Bad Habits<a class="headerlink" href="#blender-bad-habits" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Original Written by:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Light</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Original URL:</th><td class="field-body"><a class="reference external" href="https://studiollb.wordpress.com/2012/02/03/blender-bad-habits/">https://studiollb.wordpress.com/2012/02/03/blender-bad-habits/</a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Language:</th><td class="field-body">ja(日本語)</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Translation and add notes:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">TETSUO Mitsuda (&#64;lab1092)</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Last changed:</th><td class="field-body">2014/10/24</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>まるまる原文からの翻訳、というわけではないですね。メモ的なものを追加しています。</p>
+<div class="section" id="blender">
+<h2>Blenderにおける悪いクセ<a class="headerlink" href="#blender" title="Permalink to this headline">¶</a></h2>
+<p>Blenderで制作する時の「すべきではない」悪いクセを紹介します。特に複数人で作業を行う場合に意識したほうが良い項目です。</p>
+<div class="section" id="id1">
+<h3>1. デフォルトビュー(または他のビューで)他のウィンドウに切り替えている、または新しいウィンドウを作成している<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>遅く、汚いワークスペースで、プレゼン的にも良くありません。</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>ワークスペースをCtrl+カーソル右またはCtrl+カーソル左、で切り替えます。
+各ウィンドウが狭いと感じた場合は Ctrl+カーソル上またはCtrl+カーソル下、Shift+スペース で最大化・最小化の切り替えを行います。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">ワークスペースとしてのレイアウトはデフォルトでも目的別に複数用意されているのでそちらを使ったほうが良い、ということでしょう。
+また、「プレゼン的に」というのは、他の人との共同作業などを考えた場合、「共通の画面レイアウト」で見せたほうがわかりやすいという部分でのことでしょう。</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/Interface/Window_system">The Window System</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id2">
+<h3>2. オブジェクト・マテリアル・テクスチャに適切な名前を付けない<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>オブジェクトを見つけること、管理することが難しくなります。アートディレクターがシーン最適化する場合に</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>追加する全てに名前をつけましょう。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>自身で管理できる分においては Cube Cube.001 Cube.002 であればまあそれで問題は無いのですが、
+複雑なシーンを作成する場合には、オブジェクト名に前もって名前を付けておくと、アウトライナーウィンドウのオブジェクト検索にもヒットしやすくなります。</p>
+<p class="last">特に「オブジェクトを複製後編集して別のものを作る」という場合には見落としが発生しやすいので、注意します。</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/Modeling/Objects">Object モード</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>3. オブジェクトモードでの拡大縮小<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>例外: スモークドメイン、流体ドメイン</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>arrayモディファイア使用時やテクスチャ密度で問題に遭遇します。</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>エディットモードでのみ拡大縮小を行います。拡大率/回転を1:1:1にする Ctrl+A キーを使用します。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">エクスポート時にも問題となることが多いので注意しましょう。3Dビューで[N]キーを押してプロパティシェルフから確認しましょう。</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/3D_interaction/Transform_Control/Reset_Object_Transformations#Apply_Object_transformations">Apply Object transformations</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id4">
+<h3>4.均等でない密度のメッシュを作成する<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>アニメーション時に問題になります。不必要なポリゴン、悪いトポロジー、均等でない密度のテクスチャ(pTex機能がBlenderに入っても)</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>コントロールしやすさとシステムリソースのためにポリゴン数を低めに維持します。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id5">
+<h3>5.ポリゴン数を無視した高密度ポリゴン<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>例外: スカルプト時</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>ビュー操作時の動作が重くなる、Blenderがクラッシュする(制作時間を無駄にする)、ほとんどの場合アニメーションできなくなる</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>コントロールしやすさとシステムリソースのためにポリゴン数を低めに維持します。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id6">
+<h3>6.テクスチャ解像度が低すぎる/高すぎる<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>例外: PtexがBlenderに搭載されたら</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td><div class="first last line-block">
+<div class="line">解像度が高すぎる: 冗長すぎるテクスチャ(ビュー操作時の動作が重くなる、レンダリングに時間がかかる)</div>
+<div class="line">解像度が低すぎる: テクスチャが壊れているように表示されます。(眠い感じになる)</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>出力サイズをチェックし、高解像度、中解像度、低解像度のいずれか最適な画像を、オブジェクトが表示される大きさに応じて設定します。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/Textures/Mapping/UV">UV</a></li>
+<li><a class="reference external" href="http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/Textures/Mapping/UV_Image_Editor">The UV/Image Editor for texturing</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id7">
+<h3>7.コンポジションガイドを設定していない<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>バランスの取れていない構図、アニメーション時の「妙にカメラに収まっている」感</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>目的のカメラオブジェクトを選択した状態でプロパティウィンドウの「カメラ」のDisplayにあるComposition Guide を有効にします。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">カメラの構図については幾つかテンプレ的なものがあって、それらをうまく使うと「収まりの良い」画像になります。
+ただし、アニメーションでは「時系列に変化する余白」を効果的に使うという面では「常に収まりの良い」のが仇となる場合が有ります。</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<ul class="last simple">
+<li><a class="reference external" href="fuga">hoge</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id8">
+<h3>8.プレビューレンダリング時に&#8221;スタンプ&#8221;を使っていない<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>レンダリング結果にショットやカメラレンズの情報が入っていないため、画角やアングルの変更をした後に「何を変更したか」「何故変更したか」がわからなくなります。</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>プロパティウィンドウの「レンダー」の「Stamp」を有効にして、情報をレンダリング画像に映します。
+(最終出力時にはこのオプションを無効にしてレンダリングすることを忘れないでください)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/Render/Post_Process/Stamp">Stamp</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id9">
+<h3>9. 無計画にオブジェクトをモデリングしている<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>無計画なワークフローによる問題に直面します。</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>モデル作成計画を立てる。これは問題が起きる前に良いトポロジー、密集度合いの少ないメッシュ、問題の解決という結果をもたらすでしょう。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">メッシュモデリングでも、サブサーフモディファイアを使って、より少ない頂点でモデルを作成することができます。この場合、各頂点は「コントロールポイント」として働くことを意識してください。</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/Modifiers/Generate/Subsurf">再分割（Subdivision Surface）モディファイア</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="wip">
+<h3>10. 作成中の様子(WIP)をたくさん投稿しすぎる<a class="headerlink" href="#wip" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>なぜ悪いか</td>
+<td>明確な進歩のないもので溢れかえります。</td>
+</tr>
+<tr class="row-even"><td>解決策</td>
+<td>3つのWIPのみを見せる練習をします。
+1. 印象を得るためのもの(これから作る作品についてテーマとしての批評を得るため、2Dのスケッチなど)
+2. 作品制作の中間地点
+3. 最終出力の直前の批評を得るため(またはコンポジット前)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>単純に制作の管理、という観点からでなく、ネット上のポストにも言えることです。</p>
+<p>blenderartists.org の <a class="reference external" href="http://blenderartists.org/forum/forumdisplay.php?16-Works-in-Progress">Works in Progress</a>
+フォーラムについては、結構その辺を気にせずに自分のWIPスレッド立てて、スレッド内にバンバン貼れる空気があるのですが、
+例えばTwitterで <a class="reference external" href="https://twitter.com/search?q=%23b3d">#b3d</a> タグを付けて「これ付けました」
+「あれ付けました」と細かくツイートするのは効果が無いどころかマイナスイメージを持たれてしまうことも。
+(特に、b3dタグについては「役に立つ情報を得たい」「凄い画を見たい」という期待値がとても高いので、
+一見同じもののように見えるWIPツイートは Annoying などと言われる可能性も。
+b3dタグを付けてツイートする のは 全世界に向けて「ドヤァ」するくらいの感覚がちょうどいいのかもしれません。)</p>
+<p class="last">制作過程を含む一連の流れを見せたい場合に、上記の&#8221;3つ&#8221;+最終出力というのは効果的であるかもしれません。</p>
+</div>
+<p>[EOF]</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Blender Bad Habits</a><ul>
+<li><a class="reference internal" href="#blender">Blenderにおける悪いクセ</a><ul>
+<li><a class="reference internal" href="#id1">1. デフォルトビュー(または他のビューで)他のウィンドウに切り替えている、または新しいウィンドウを作成している</a></li>
+<li><a class="reference internal" href="#id2">2. オブジェクト・マテリアル・テクスチャに適切な名前を付けない</a></li>
+<li><a class="reference internal" href="#id3">3. オブジェクトモードでの拡大縮小</a></li>
+<li><a class="reference internal" href="#id4">4.均等でない密度のメッシュを作成する</a></li>
+<li><a class="reference internal" href="#id5">5.ポリゴン数を無視した高密度ポリゴン</a></li>
+<li><a class="reference internal" href="#id6">6.テクスチャ解像度が低すぎる/高すぎる</a></li>
+<li><a class="reference internal" href="#id7">7.コンポジションガイドを設定していない</a></li>
+<li><a class="reference internal" href="#id8">8.プレビューレンダリング時に&#8221;スタンプ&#8221;を使っていない</a></li>
+<li><a class="reference internal" href="#id9">9. 無計画にオブジェクトをモデリングしている</a></li>
+<li><a class="reference internal" href="#wip">10. 作成中の様子(WIP)をたくさん投稿しすぎる</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="blenderfaq_ja.html"
+                        title="previous chapter">Blender FAQ</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/badhabits_ja.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="blenderfaq_ja.html" title="Blender FAQ"
+             >previous</a> |</li>
+        <li><a href="index.html">blendermisc .01 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, MITSUDA tetsuo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

@@ -13,6 +13,7 @@ BlenderのFAQ。日本語訳進行中。オリジナルは https://studiollb.wor
    :maxdepth: 2
    
    blenderfaq_ja
+   badhabits_ja
 
 Link
 ====
