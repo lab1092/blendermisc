@@ -139,7 +139,7 @@ Blenderで制作する時の「すべきではない」悪いクセを紹介し�
    ただし、アニメーションでは「時系列に変化する余白」を効果的に使うという面では「常に収まりの良い」のが仇となる場合が有ります。
 
 .. seealso::
-   * `hoge <fuga>`_
+   * `Composition Guides <http://wiki.blender.org/index.php/Doc:JA/2.6/Manual/Render/Camera#Composition_Guides>`_
 
 
 8.プレビューレンダリング時に"スタンプ"を使っていない
