@@ -14,6 +14,7 @@ BlenderのFAQ。日本語訳進行中。オリジナルは https://studiollb.wor
    
    blenderfaq_ja
    badhabits_ja
+   blenderdoc53_ja
 
 Link
 ====
